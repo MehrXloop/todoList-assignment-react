@@ -1,0 +1,45 @@
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  width: 30vw;
+  color: #a52a2a;
+  font-weight: bold;
+  padding: 1%;
+  background: rgba(213, 189, 175, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(213, 189, 175, 0.3);
+}
+.inputForm input,
+.inputForm textarea {
+  width: 100%;
+  margin: 3% 0;
+  padding: 5px;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.inputForm button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 3% auto;
+  outline: none;
+  border: none;
+  color: #a52a2a;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  padding: 3%;
+}
+.inputForm button:hover {
+  background-color: transparent;
+}
